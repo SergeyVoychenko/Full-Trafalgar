@@ -10,10 +10,10 @@ html {
     width: 1220px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 100vh;
 }
 .container-xl img {
     width: 693px;
@@ -174,4 +174,65 @@ html {
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.75;
+}
+.section3 {
+    padding-bottom: 229px;
+    background: url("../img/element.png") 104% 80% no-repeat;
+}
+.section3 img {
+    width: 650px;
+}
+.section3 > div {
+    gap: 142px;
+}
+.content-section3 h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 1.56;
+    margin-bottom: 33px;
+}
+.content-section3 h2::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: black;
+    margin-top: 26px;
+}
+.content-section3 p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    margin-bottom: 37px;
+}
+.section4 {
+    padding-bottom: 266px;
+}
+.section4 img {
+    width: 665px;
+}
+.section4 > div {
+    gap: 71px;
+}
+.content-section4 h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 1.33;
+    margin-bottom: 32px;
+}
+.content-section4 h2::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: black;
+    margin-top: 31px;
+}
+.content-section4 p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    margin-bottom: 40px;
 }
