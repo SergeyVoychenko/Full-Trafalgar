@@ -41,10 +41,24 @@ html {
     font-size: 18px;
     line-height: 1.28;
     font-weight: normal;
+    /* display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
 }
-.top-nav a:hover {
-    font-weight: bold;
+/* .top-nav a::before {
+    content: attr(data-text);
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+    font-weight: 700;
+} */
+.top-nav li a:hover {
+    /* font-weight: 700; */
     opacity: 1;
+    text-shadow: 1px 1px 1px;
 }
 .hero {
     padding-top: 20px;
@@ -73,7 +87,7 @@ html {
     padding: 15px 10px;
     border-radius: 55px;
     border: 1px solid #458ff6;
-    font-weight: bold;
+    font-weight: 700;
     color: #458ff6;
     background-color: none;
     min-width: 200px;
@@ -235,4 +249,83 @@ html {
     font-size: 1.8rem;
     line-height: 1.67;
     margin-bottom: 40px;
+}
+.content-section4 > a img {
+    width: 20px;
+    height: 15px;
+    display: inline-flex;
+}
+.quote h2 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 1.33;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.quote h2::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 68px;
+}
+.section5 {
+    background: url("../img/element.png") 5% 85% no-repeat
+}
+.quote {
+    height: 425px;
+    margin-bottom: 43px;
+    padding: 64px 118px;
+    border-radius: 24px;
+    background: url("../img/element2.svg") 105% -5% no-repeat, linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+.quote ul {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+.quote ul li img {
+    size: 138px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.quote ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote ul li:last-child {
+    flex-basis: 420px;
+    margin-left: 81px;
+}
+.quote ul li h3 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.58;
+    color: #FFFFFF;
+}
+.quote ul li p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.58;
+    color: rgba(255, 255, 255, 0.85);
+}
+.quote ul li:last-child p {
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.58;
+    color: rgba(255, 255, 255, 0.9);
+}
+.quote ul li:last-child p::before {
+    content: "“";
+}
+.quote ul li:last-child p::after {
+    content: "”";
 }
