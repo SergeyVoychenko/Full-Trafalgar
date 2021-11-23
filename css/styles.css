@@ -57,8 +57,9 @@ html {
 } */
 .top-nav li a:hover {
     /* font-weight: 700; */
+    /* Много текста , заменил тенями. */
     opacity: 1;
-    text-shadow: 1px 1px 1px;
+    text-shadow: 1px 0px 1px;
 }
 .hero {
     padding-top: 20px;
@@ -276,7 +277,7 @@ html {
     margin-bottom: 68px;
 }
 .section5 {
-    background: url("../img/element.png") 5% 85% no-repeat
+    background: url("../img/element.png") 5% 73% no-repeat
 }
 .quote {
     height: 425px;
@@ -328,4 +329,27 @@ html {
 }
 .quote ul li:last-child p::after {
     content: "”";
+}
+.bottom-bar li:first-child {
+    width: 24px;
+    transform: rotate(90deg);
+    margin-right: 74px;
+}
+.bottom-bar li:last-child {
+    width: 24px;
+    transform: rotate(-90deg);
+    margin-left: 74px;
+}
+.bottom-bar {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 223px;
+}
+.bottom-bar li {
+    opacity: 0.3;
+}
+.bottom-bar li:hover {
+    opacity: 1;
 }
