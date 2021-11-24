@@ -30,6 +30,7 @@ html {
 .logo::before {
     content: url("../img/logo.svg");
     width: 41px;
+    display: flex;
 }
 .top-nav {
     display: flex;
@@ -430,4 +431,55 @@ html {
 .bottom-card-content a img {
     width: 14px;
     transform: rotate(-90deg);
+}
+.footer {
+    padding: 118px 190px 113px;
+    background: url("../img/element2.svg") -2% 105% no-repeat, linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+#footerlogo {
+    font-size: 2.4rem;
+    line-height: 2;
+    font-weight: 700;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 17px;
+}
+#footerlogo::before {
+    content: url("../img/FooterLogo.svg");
+    width: 41px;
+    display: flex;
+}
+.footernav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.footernav ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7px ;
+}
+.footernav a {
+   font-weight: 300;
+   font-size: 1.8rem;
+   line-height: 2.11;
+   color: white;
+}
+.footernav a:first-child {
+    font-weight: 700;
+   font-size: 2.0rem;
+   line-height: 3;
+}
+.footernav p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: white;
+ }
+.footernav ul li:first-child {
+    width: 391px;
+}
+#pfooter {
+    flex-grow: 1;
 }
