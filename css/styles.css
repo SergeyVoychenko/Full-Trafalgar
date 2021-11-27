@@ -10,12 +10,11 @@ html {
     width: 1220px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.container-xl img {
+.hero-image {
     width: 693px;
 }
 .logo {
@@ -42,23 +41,8 @@ html {
     font-size: 18px;
     line-height: 1.28;
     font-weight: normal;
-    /* display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
 }
-/* .top-nav a::before {
-    content: attr(data-text);
-    height: 0;
-    visibility: hidden;
-    overflow: hidden;
-    user-select: none;
-    pointer-events: none;
-    font-weight: 700;
-} */
 .top-nav li a:hover {
-    /* font-weight: 700; */
-    /* Много текста , заменил тенями. */
     opacity: 1;
     text-shadow: 1px 0px 1px;
 }
@@ -278,14 +262,14 @@ html {
     margin-bottom: 68px;
 }
 .section5 {
-    background: url("../img/element.png") 5% 73% no-repeat
+    background: url("../img/element.png") 5% 73% no-repeat;
 }
 .quote {
     height: 425px;
     margin-bottom: 43px;
     padding: 64px 118px;
     border-radius: 24px;
-    background: url("../img/element2.svg") 105% -5% no-repeat, linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background: url("../img/element2.svg") 105% -5% no-repeat, linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
 }
 .quote ul {
     display: flex;
@@ -311,7 +295,7 @@ html {
     font-weight: 700;
     font-size: 2.2rem;
     line-height: 1.58;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .quote ul li p {
     font-weight: 400;
@@ -342,7 +326,7 @@ html {
     margin-left: 74px;
 }
 .bottom-bar {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 18px;
@@ -357,9 +341,8 @@ html {
 .section6 {
     padding-top: 2px;
     padding-bottom: 201px;
-    background: url("../img/element.png") 95% 105% no-repeat,
-     url("../img/element.png") 6% 13% no-repeat,
-     url("../img/vector2.svg") 110% 25% no-repeat;
+    background: url("../img/element.png") 95% 105% no-repeat, url("../img/element.png") 6% 13% no-repeat,
+        url("../img/vector2.svg") 110% 25% no-repeat;
 }
 .section6 > div {
     display: flex;
@@ -402,7 +385,6 @@ html {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-
 }
 .bottom-card-content h3 {
     font-weight: 700;
@@ -415,7 +397,7 @@ html {
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.75;
-    color: #7D7987;
+    color: #7d7987;
     margin-bottom: 25px;
     flex-grow: 1;
 }
@@ -426,7 +408,7 @@ html {
     font-size: 1.7rem;
     font-weight: 700;
     line-height: 1.65;
-    color: #4089ED;
+    color: #4089ed;
 }
 .bottom-card-content a img {
     width: 14px;
@@ -434,7 +416,8 @@ html {
 }
 .footer {
     padding: 118px 190px 113px;
-    background: url("../img/element2.svg") -2% 105% no-repeat, linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background: url("../img/element2.svg") -2% 105% no-repeat,
+        linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 }
 #footerlogo {
     font-size: 2.4rem;
@@ -458,25 +441,25 @@ html {
 .footernav ul li {
     display: flex;
     flex-direction: column;
-    padding: 0 7px ;
+    padding: 0 7px;
 }
 .footernav a {
-   font-weight: 300;
-   font-size: 1.8rem;
-   line-height: 2.11;
-   color: white;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.11;
+    color: white;
 }
 .footernav a:first-child {
     font-weight: 700;
-   font-size: 2.0rem;
-   line-height: 3;
+    font-size: 2rem;
+    line-height: 3;
 }
 .footernav p {
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 1.56;
     color: white;
- }
+}
 .footernav ul li:first-child {
     width: 391px;
 }
